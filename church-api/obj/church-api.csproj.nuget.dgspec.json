@@ -1,0 +1,348 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/church-api.csproj": {}
+  },
+  "projects": {
+    "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/church-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/church-api.csproj",
+        "projectName": "church-api",
+        "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/church-api.csproj",
+        "packagesPath": "/Users/basha/.nuget/packages/",
+        "outputPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/basha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/church-database.csproj": {
+                "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/church-database.csproj"
+              },
+              "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/church-models.csproj": {
+                "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/church-models.csproj"
+              },
+              "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/church-repos.csproj": {
+                "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/church-repos.csproj"
+              },
+              "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-services/church-services.csproj": {
+                "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-services/church-services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/church-database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/church-database.csproj",
+        "projectName": "church-database",
+        "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/church-database.csproj",
+        "packagesPath": "/Users/basha/.nuget/packages/",
+        "outputPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/basha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/church-models.csproj": {
+                "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/church-models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/church-models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/church-models.csproj",
+        "projectName": "church-models",
+        "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/church-models.csproj",
+        "packagesPath": "/Users/basha/.nuget/packages/",
+        "outputPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/basha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/church-repos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/church-repos.csproj",
+        "projectName": "church-repos",
+        "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/church-repos.csproj",
+        "packagesPath": "/Users/basha/.nuget/packages/",
+        "outputPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/basha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/church-database.csproj": {
+                "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/church-database.csproj"
+              },
+              "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/church-models.csproj": {
+                "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/church-models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-services/church-services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-services/church-services.csproj",
+        "projectName": "church-services",
+        "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-services/church-services.csproj",
+        "packagesPath": "/Users/basha/.nuget/packages/",
+        "outputPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/basha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/church-models.csproj": {
+                "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/church-models.csproj"
+              },
+              "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/church-repos.csproj": {
+                "projectPath": "/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/church-repos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

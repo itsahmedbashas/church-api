@@ -1,0 +1,17 @@
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/bin/Debug/net6.0/church-database.deps.json
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/bin/Debug/net6.0/church-database.runtimeconfig.json
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/bin/Debug/net6.0/church-database.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/bin/Debug/net6.0/church-database.pdb
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/bin/Debug/net6.0/church-models.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/bin/Debug/net6.0/church-models.pdb
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/Debug/net6.0/church-database.csproj.AssemblyReference.cache
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/Debug/net6.0/church-database.GeneratedMSBuildEditorConfig.editorconfig
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/Debug/net6.0/church-database.AssemblyInfoInputs.cache
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/Debug/net6.0/church-database.AssemblyInfo.cs
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/Debug/net6.0/church-database.csproj.CoreCompileInputs.cache
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/Debug/net6.0/church-database.csproj.CopyComplete
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/Debug/net6.0/church-database.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/Debug/net6.0/refint/church-database.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/Debug/net6.0/church-database.pdb
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/Debug/net6.0/church-database.genruntimeconfig.cache
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-database/obj/Debug/net6.0/ref/church-database.dll

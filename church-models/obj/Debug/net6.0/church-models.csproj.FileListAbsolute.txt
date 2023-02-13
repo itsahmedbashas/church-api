@@ -1,0 +1,12 @@
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/bin/Debug/net6.0/church-models.deps.json
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/bin/Debug/net6.0/church-models.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/bin/Debug/net6.0/church-models.pdb
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/obj/Debug/net6.0/church-models.csproj.AssemblyReference.cache
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/obj/Debug/net6.0/church-models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/obj/Debug/net6.0/church-models.AssemblyInfoInputs.cache
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/obj/Debug/net6.0/church-models.AssemblyInfo.cs
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/obj/Debug/net6.0/church-models.csproj.CoreCompileInputs.cache
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/obj/Debug/net6.0/church-models.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/obj/Debug/net6.0/refint/church-models.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/obj/Debug/net6.0/church-models.pdb
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-models/obj/Debug/net6.0/ref/church-models.dll

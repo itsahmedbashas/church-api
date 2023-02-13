@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eKS5V47sdQMjTQMe279i5MEdk03qk/f1pm+O/QpgBuM=",
+  "Source": "church-api",
+  "BasePath": "_content/church-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

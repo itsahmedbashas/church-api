@@ -1,0 +1,17 @@
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/bin/Debug/net6.0/church-repos.deps.json
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/bin/Debug/net6.0/church-repos.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/bin/Debug/net6.0/church-repos.pdb
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/obj/Debug/net6.0/church-repos.csproj.AssemblyReference.cache
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/obj/Debug/net6.0/church-repos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/obj/Debug/net6.0/church-repos.AssemblyInfoInputs.cache
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/obj/Debug/net6.0/church-repos.AssemblyInfo.cs
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/obj/Debug/net6.0/church-repos.csproj.CoreCompileInputs.cache
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/obj/Debug/net6.0/church-repos.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/obj/Debug/net6.0/refint/church-repos.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/obj/Debug/net6.0/church-repos.pdb
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/obj/Debug/net6.0/ref/church-repos.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/bin/Debug/net6.0/church-models.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/bin/Debug/net6.0/church-models.pdb
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/obj/Debug/net6.0/church-repos.csproj.CopyComplete
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/bin/Debug/net6.0/church-database.dll
+/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/bin/Debug/net6.0/church-database.pdb
