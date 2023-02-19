@@ -198,6 +198,36 @@ namespace church_services
                     break;
             }
         }
+
+        /// <summary>
+        /// Save Project
+        /// </summary>
+        /// <param name="project"></param>
+        /// <returns></returns>
+        public async Task SaveProject(Project project)
+        {
+            await _adminRepo.SaveProject(project);
+        }
+
+        /// <summary>
+        /// Get Projects
+        /// </summary>
+        /// <param name="searchText"></param>
+        /// <returns></returns>
+        public async Task<List<Project>> GetProjects(string searchText)
+        {
+            return await _adminRepo.GetProjects(searchText);
+        }
+
+        /// <summary>
+        /// Get Single Project based on Id
+        /// </summary>
+        /// <param name="projectId"></param>
+        /// <returns></returns>
+        public async Task<Project> GetProject(int projectId)
+        {
+            return await _adminRepo.GetProject(projectId);
+        }
     }
 }
 

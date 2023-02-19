@@ -23,6 +23,12 @@ namespace church_services
 
         // Delete LKPs
         public Task DeleteAdminLookup(int lookupId, int id);
+
+        // Project Related
+        // Save Project
+        public Task SaveProject(Project project);
+        public Task<List<Project>> GetProjects(string searchText);
+        public Task<Project> GetProject(int projectId);
     }
 }
 

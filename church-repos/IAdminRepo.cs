@@ -28,6 +28,12 @@ namespace church_repos
         public Task DeleteCompletionStatus(int id);
         public Task DeleteApplicantCommunity(int id);
         public Task DeleteApplyingEntity(int id);
+
+        // Project Related
+        // Save Project
+        public Task SaveProject(Project project);
+        public Task<List<Project>> GetProjects(string searchText);
+        public Task<Project> GetProject(int projectId);
     }
 }
 

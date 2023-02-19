@@ -91,6 +91,89 @@ namespace church_database.Migrations
                     b.ToTable("CompletionStatus");
                 });
 
+            modelBuilder.Entity("church_models.Entities.Project", b =>
+                {
+                    b.Property<int>("ProjectId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProjectId"), 1L, 1);
+
+                    b.Property<int?>("AmountToBeAppliedForAgencies")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ApplicantCommunityId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ApplicantEmailId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ApplicantInstitution")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ApplicantName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ApplicationDate")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ApplyingEntityId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CompletionStatusId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<string>("DesiredDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EstimatedEndOfProject")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("LocalContribution")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ProjectCompletionDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProjectNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProjectStatusId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ProjectTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProjectTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Remarks")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TotalProjectCost")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProjectId");
+
+                    b.HasIndex("ApplicantCommunityId");
+
+                    b.HasIndex("ApplyingEntityId");
+
+                    b.HasIndex("CompletionStatusId");
+
+                    b.HasIndex("ProjectStatusId");
+
+                    b.HasIndex("ProjectTypeId");
+
+                    b.ToTable("Projects");
+                });
+
             modelBuilder.Entity("church_models.Entities.ProjectStatus", b =>
                 {
                     b.Property<int>("ProjectStatusId")
@@ -135,6 +218,49 @@ namespace church_database.Migrations
                     b.HasKey("ProjectTypeId");
 
                     b.ToTable("ProjectTypes");
+                });
+
+            modelBuilder.Entity("church_models.Entities.Project", b =>
+                {
+                    b.HasOne("church_models.Entities.ApplicantCommunity", "ApplicantCommunity")
+                        .WithMany()
+                        .HasForeignKey("ApplicantCommunityId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("church_models.Entities.ApplyingEntity", "ApplyingEntity")
+                        .WithMany()
+                        .HasForeignKey("ApplyingEntityId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("church_models.Entities.CompletionStatus", "CompletionStatus")
+                        .WithMany()
+                        .HasForeignKey("CompletionStatusId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("church_models.Entities.ProjectStatus", "ProjectStatus")
+                        .WithMany()
+                        .HasForeignKey("ProjectStatusId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("church_models.Entities.ProjectType", "ProjectType")
+                        .WithMany()
+                        .HasForeignKey("ProjectTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicantCommunity");
+
+                    b.Navigation("ApplyingEntity");
+
+                    b.Navigation("CompletionStatus");
+
+                    b.Navigation("ProjectStatus");
+
+                    b.Navigation("ProjectType");
                 });
 #pragma warning restore 612, 618
         }

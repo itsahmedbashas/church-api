@@ -262,6 +262,62 @@ namespace church_repos
                 await _context.SaveChangesAsync();
             }
         }
+
+        /// <summary>
+        /// Saving Projects Data
+        /// </summary>
+        /// <param name="project"></param>
+        /// <returns></returns>
+        public async Task SaveProject(Project project)
+        {
+            // create and assign Project Number while saving
+            var projNumber = _context.Projects.Count() + 1;
+            project.ProjectNumber = $"OFM-{projNumber}";
+
+            _context.Projects.Add(project);
+            await _context.SaveChangesAsync();
+        }
+
+        /// <summary>
+        /// Get Projects
+        /// </summary>
+        /// <param name="searchText"></param>
+        /// <returns></returns>
+        public async Task<List<Project>> GetProjects(string searchText)
+        {
+            var projects = _context.Projects
+                    .Include(p => p.ProjectStatus)
+                    .Include(p => p.ProjectType);
+
+
+            if (!String.IsNullOrEmpty(searchText))
+            {
+
+                return await projects.Where(pro => pro.ProjectTitle.ToLower()
+                    .Equals(searchText.ToLower())).ToListAsync();
+            }
+            else
+            {
+                return await projects.ToListAsync();
+            }
+        }
+
+        /// <summary>
+        /// Get Single Project Based on ID
+        /// </summary>
+        /// <param name="projectId"></param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException"></exception>
+        public async Task<Project> GetProject(int projectId)
+        {
+            var project = await _context.Projects.Where(proj => proj.ProjectId.Equals(projectId)).FirstOrDefaultAsync();
+
+            if (project == null)
+                throw new ArgumentException();
+
+            return project;
+
+        }
     }
 }
 

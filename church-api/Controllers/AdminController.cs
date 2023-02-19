@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using church_models.Entities;
 using church_models.Shared;
 using church_services;
 using Microsoft.AspNetCore.Mvc;
@@ -68,6 +69,27 @@ namespace church_api.Controllers
         {
             await _adminService.DeleteAdminLookup(lookupid, id);
             return Ok(true);
+        }
+
+        [HttpPost("saveProject")]
+        public async Task<IActionResult> SaveProject([FromBody] Project project)
+        {
+            await _adminService.SaveProject(project);
+            return Ok(true);
+        }
+
+        [HttpGet("getProjects")]
+        public async Task<IActionResult> GetProjects(string? searchText)
+        {
+            var projects = await _adminService.GetProjects(searchText);
+            return Ok(projects);
+        }
+
+        [HttpGet("getProject/{id}")]
+        public async Task<IActionResult> GetProjects(int id)
+        {
+            var project = await _adminService.GetProject(id);
+            return Ok(project);
         }
     }
 }

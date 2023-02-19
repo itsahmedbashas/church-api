@@ -4,8 +4,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace church_database
 {
-	public class DataContext : DbContext
-	{
+    public class DataContext : DbContext
+    {
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
         }
@@ -19,6 +19,8 @@ namespace church_database
         public DbSet<ApplyingEntity> ApplyingEntity { get; set; }
 
         public DbSet<ApplicantCommunity> ApplicantCommunity { get; set; }
+
+        public DbSet<Project> Projects { get; set; }
     }
 }
 

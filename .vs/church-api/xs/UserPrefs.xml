@@ -1,55 +1,39 @@
 ﻿<Properties StartupConfiguration="{1C0D4B2A-08DD-4E45-A71C-E891E58A4D85}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/Controllers/AdminController.cs" relfile="church-api/Controllers/AdminController.cs" line="50" column="1" />
-      <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/Controllers/AdminController.cs" relfile="church-api/Controllers/AdminController.cs" line="39" column="1" />
-      <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/Controllers/AdminController.cs" relfile="church-api/Controllers/AdminController.cs" line="27" column="1" />
-      <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/AdminRepo.cs" relfile="church-repos/AdminRepo.cs" line="19" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.church-api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="church-api/Controllers/AdminController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="church-api/appsettings.json">
     <Files>
       <File FileName="church-api/Controllers/WeatherForecastController.cs" />
       <File FileName="church-api/Models/SuperHero.cs" />
-      <File FileName="church-api/Controllers/SuperHeroController.cs" Line="18" Column="42" />
-      <File FileName="church-api/appsettings.json" />
+      <File FileName="church-api/Controllers/SuperHeroController.cs" />
+      <File FileName="church-api/appsettings.json" Line="13" Column="1" />
       <File FileName="church-api/Program.cs" />
       <File FileName="church-models/ViewModels/ProjectStatusViewModel.cs" />
       <File FileName="church-models/Entities/ProjectStatus.cs" />
       <File FileName="church-models/Entities/ProjectType.cs" />
       <File FileName="church-models/ViewModels/ProjectTypeViewModel.cs" />
-      <File FileName="church-models/Entities/CompletionStatus.cs" Line="20" Column="21" />
+      <File FileName="church-models/Entities/CompletionStatus.cs" />
       <File FileName="church-models/ViewModels/CompletionStatusViewModel.cs" />
       <File FileName="church-models/Entities/ApplyingEntity.cs" />
       <File FileName="church-models/ViewModels/ApplyingEntityViewModel.cs" />
-      <File FileName="church-api/Controllers/AdminController.cs" Line="56" Column="1" />
-      <File FileName="church-models/Shared/AdminMenus.cs" Line="10" Column="19" />
+      <File FileName="church-api/Controllers/AdminController.cs" />
+      <File FileName="church-models/Shared/AdminMenus.cs" />
       <File FileName="church-repos/DataSavingRepo.cs" />
       <File FileName="church-database/DataContext.cs" />
-      <File FileName="church-services/AdminService.cs" Line="71" Column="40" />
-      <File FileName="church-services/IAdminService.cs" Line="14" Column="21" />
-      <File FileName="church-repos/AdminRepo.cs" Line="118" Column="1" />
-      <File FileName="church-repos/IAdminRepo.cs" Line="15" Column="38" />
+      <File FileName="church-services/AdminService.cs" />
+      <File FileName="church-services/IAdminService.cs" />
+      <File FileName="church-repos/AdminRepo.cs" />
+      <File FileName="church-repos/IAdminRepo.cs" />
       <File FileName="church-database/Migrations/20230205190347_RemovedNotNull.cs" />
       <File FileName="church-api/WeatherForecast.cs" />
-      <File FileName="church-models/Shared/AdminLookup.cs" Line="11" Column="22" />
+      <File FileName="church-models/Shared/AdminLookup.cs" />
+      <File FileName="church-models/Entities/ApplicantCommunity.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="church-api" expanded="True">
             <Node name="church-api" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="AdminController.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="church-models" expanded="True">
-              <Node name="Entities" expanded="True" />
-              <Node name="Shared" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
             <Node name="church-repos" expanded="True" />
             <Node name="church-services" expanded="True" />
@@ -58,4 +42,15 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/Controllers/AdminController.cs" relfile="church-api/Controllers/AdminController.cs" line="49" column="1" />
+      <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/Controllers/AdminController.cs" relfile="church-api/Controllers/AdminController.cs" line="27" column="1" />
+      <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/AdminRepo.cs" relfile="church-repos/AdminRepo.cs" line="20" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.church-api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
