@@ -30,6 +30,7 @@ namespace church_services
         public Task<List<Project>> GetProjects(string searchText);
         public Task<Project> GetProject(int projectId);
         public Task UpdateProject(Project project);
+        public Task DeleteProjects(List<int> projectsIds);
     }
 }
 

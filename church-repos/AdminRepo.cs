@@ -287,12 +287,12 @@ namespace church_repos
         {
             var projects = _context.Projects
                     .Include(p => p.ProjectStatus)
-                    .Include(p => p.ProjectType);
+                    .Include(p => p.ProjectType)
+                    .Include(p => p.CompletionStatus);
 
 
             if (!String.IsNullOrEmpty(searchText))
             {
-
                 return await projects.Where(pro => pro.ProjectTitle.ToLower()
                     .Equals(searchText.ToLower())).ToListAsync();
             }
@@ -332,6 +332,22 @@ namespace church_repos
 
             _context.Update(project);
             await _context.SaveChangesAsync();
+        }
+
+        /// <summary>
+        /// Delete Projects
+        /// </summary>
+        /// <param name="projectIds"></param>
+        /// <returns></returns>
+        public async Task DeleteProjects(List<int> projectIds)
+        {
+            var projectsBasedOnIds = await _context.Projects.Where(proj => projectIds.Contains(proj.ProjectId)).ToListAsync();
+
+            if (projectsBasedOnIds != null && projectsBasedOnIds.Count > 0)
+            {
+                _context.RemoveRange(projectsBasedOnIds);
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }

@@ -238,6 +238,16 @@ namespace church_services
         {
             await _adminRepo.UpdateProject(project);
         }
+
+        /// <summary>
+        ///  Delete Projects based on Project Ids
+        /// </summary>
+        /// <param name="projectIds"></param>
+        /// <returns></returns>
+        public async Task DeleteProjects(List<int> projectIds)
+        {
+            await _adminRepo.DeleteProjects(projectIds);
+        }
     }
 }
 

@@ -1,15 +1,13 @@
-﻿<Properties StartupConfiguration="{1C0D4B2A-08DD-4E45-A71C-E891E58A4D85}|Default">
-  <MonoDevelop.Ide.ItemProperties.church-api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/Controllers/AdminController.cs" relfile="church-api/Controllers/AdminController.cs" line="50" column="1" />
-      <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/Controllers/AdminController.cs" relfile="church-api/Controllers/AdminController.cs" line="28" column="1" />
-      <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/AdminRepo.cs" relfile="church-repos/AdminRepo.cs" line="20" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{1C0D4B2A-08DD-4E45-A71C-E891E58A4D85}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/Controllers/AdminController.cs" relfile="church-api/Controllers/AdminController.cs" line="50" column="1" />
+    <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-api/Controllers/AdminController.cs" relfile="church-api/Controllers/AdminController.cs" line="28" column="1" />
+    <Breakpoint enabled="false" file="/Users/basha/Desktop/Ahmed's Work Space/Coding/Projects/church-api/church-repos/AdminRepo.cs" relfile="church-repos/AdminRepo.cs" line="20" column="1" />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.church-api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="church-repos/AdminRepo.cs">
     <Files>
       <File FileName="church-api/Controllers/WeatherForecastController.cs" />

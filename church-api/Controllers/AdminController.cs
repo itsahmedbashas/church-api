@@ -98,6 +98,13 @@ namespace church_api.Controllers
             await _adminService.UpdateProject(project);
             return Ok(true);
         }
+
+        [HttpDelete("deleteProjects")]
+        public async Task<IActionResult> DeleteProjects(List<int> projectIds)
+        {
+            await _adminService.DeleteProjects(projectIds);
+            return Ok(true);
+        }
     }
 }
 
