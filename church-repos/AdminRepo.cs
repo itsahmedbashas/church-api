@@ -318,6 +318,21 @@ namespace church_repos
             return project;
 
         }
+
+        /// <summary>
+        /// Update Project
+        /// </summary>
+        /// <param name="project"></param>
+        /// <returns></returns>
+        public async Task UpdateProject(Project project)
+        {
+            var result = await _context.Projects.Where(proj => proj.ProjectId.Equals(project.ProjectId)).AsNoTracking().FirstOrDefaultAsync();
+            if (project == null)
+                throw new ArgumentException();
+
+            _context.Update(project);
+            await _context.SaveChangesAsync();
+        }
     }
 }
 

@@ -91,6 +91,13 @@ namespace church_api.Controllers
             var project = await _adminService.GetProject(id);
             return Ok(project);
         }
+
+        [HttpPut("updateProject")]
+        public async Task<IActionResult> UpdateProject(Project project)
+        {
+            await _adminService.UpdateProject(project);
+            return Ok(true);
+        }
     }
 }
 

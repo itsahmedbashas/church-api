@@ -228,6 +228,16 @@ namespace church_services
         {
             return await _adminRepo.GetProject(projectId);
         }
+
+        /// <summary>
+        /// Update Project
+        /// </summary>
+        /// <param name="project"></param>
+        /// <returns></returns>
+        public async Task UpdateProject(Project project)
+        {
+            await _adminRepo.UpdateProject(project);
+        }
     }
 }
 

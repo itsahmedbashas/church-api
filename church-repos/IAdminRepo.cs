@@ -34,6 +34,7 @@ namespace church_repos
         public Task SaveProject(Project project);
         public Task<List<Project>> GetProjects(string searchText);
         public Task<Project> GetProject(int projectId);
+        public Task UpdateProject(Project project);
     }
 }
 
